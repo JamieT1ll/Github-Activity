@@ -1,9 +1,30 @@
 
-title{
+h1{
+    text-align: center;
+    color: 	#06291d;
     font-size: 60px;
     @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 }
 
-h1{
-    color:aqua;
+h2{
+    color:#c1f3e5 ;
+}
+body{
+    background-color: #92ddc8;
+}
+
+div{
+    
+    padding: 10px;
+    margin:auto;
+    background-color: #137a63;
+    max-width: 300px;
+}
+
+nav{
+    background-color: #0a3a2a   ;
+
+}
+p{
+    color: 	#c1f3e5;
 }
