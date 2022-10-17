@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+}
+
 
 h1{
     text-align: center;
     color: 	#06291d;
     font-size: 60px;
-    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+    font-family: 'Lobster', cursive;
+
+
 }
 
 h2{
@@ -11,6 +23,22 @@ h2{
 }
 body{
     background-color: #92ddc8;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #c1f3e5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
 
 div{
